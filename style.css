@@ -7,12 +7,13 @@ body{
     height: 100vh;
     margin: 0%;
 }
-body div{
+body>div{
     display: flex;
     flex: auto;
     padding: 0 100px;
 }
 .header{
+    flex-basis: 200px;
     background: #1F2937;
     flex-direction: column;
 }
@@ -28,6 +29,7 @@ ul{
     flex-direction: row;
     padding: 0;
     padding-top: 10px;
+    padding-bottom: 50px;
     margin: 0;
     list-style-type: none;
     align-items: flex-end;
@@ -44,4 +46,35 @@ a{
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
+}
+.quote-section{
+    background-color: #E5E7EB;
+}
+.side-flex{
+    display: flex;
+}
+.side-flex div{
+    flex: 1;
+}
+.column-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hero{
+    color: #F9FAF8;
+}
+#image{
+    background: url(https://cdn.pixabay.com/photo/2020/04/08/06/55/elephant-5015964_960_720.jpg);
+    background-size: cover;
+}
+#sign-up{
+    color: white;
+    background: #3882F6;
+    border: none;
+    padding: 7px 26px;
+    border-radius: 8px;
+}
+.white-text{
+    color: #E5E7EB;
 }

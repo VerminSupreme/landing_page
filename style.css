@@ -13,7 +13,8 @@ body>div{
     padding: 0 100px;
 }
 .header{
-    flex-basis: 200px;
+    padding-bottom: 50px;
+    flex: auto;
     background: #1F2937;
     flex-direction: column;
 }
@@ -22,6 +23,7 @@ body>div{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
 }
 ul{
     gap: 20px;
@@ -77,4 +79,74 @@ a{
 }
 .white-text{
     color: #E5E7EB;
+}
+.information-flex{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.blue-cube{
+    display: inline-block;
+    height: 110px;
+    width: 110px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+.cube-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 110px;
+    text-align: center;
+}
+.quote-section{
+    display: block;
+    padding: 0 200px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+.reference{
+    font-weight: bolder;
+    text-align: right;
+}
+.call-to-action{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    
+}
+.inner-action{
+    flex: 1;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 100px;
+    color: white;
+
+}
+.idek{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;  
+  flex: 1;
+}
+.idek button{
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    font-size: .8em;
+}
+.thing h1{
+    font-size: 1.2em;
 }
